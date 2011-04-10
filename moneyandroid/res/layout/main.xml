@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+<Spinner 
+	android:id="@+id/Spinner01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:layout_x="16dip" 
+	android:layout_y="13dip"
+	/>
+<Spinner 
+	android:id="@+id/Spinner02" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:layout_x="133dip" 
+	android:layout_y="14dip"
+	/>
+<EditText 
+	android:id="@+id/EditText01"
+	android:layout_height="wrap_content"
+	android:layout_width="170px" 
+	android:textSize="18sp" 
+	android:layout_x="13dip" 
+	android:layout_y="101dip"
+	/>
+<Button 
+	android:id="@+id/Button01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:layout_x="240dip" 
+	android:layout_y="98dip"
+	android:text="转换" 
+	/>
+<TextView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/TextView01" 
+	android:textSize="20px" 
+	android:layout_x="148dip" 
+	android:layout_y="233dip"
+	/>
+<TextView 
+	android:layout_width="wrap_content" 
+	android:text="汇率值:" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/textView1" 
+	android:layout_x="54dip" 
+	android:layout_y="242dip" />
+</AbsoluteLayout>

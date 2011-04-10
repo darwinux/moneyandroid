@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MoneyDroid data="2011-4-6">
+<money code="CNY" name="人民币"/>
+<money code="HKD" name="港币" />
+<money code="TWD" name="台币"/>
+<money code="EUR" name="欧元"/>
+<money code="USD" name="美元"/>
+<money code="GBP" name="英镑"/>
+<money code="AUD" name="澳元"/>
+<money code="KRW" name="韩元"/>
+<money code="JPY" name="日元"/>
+</MoneyDroid>
