@@ -158,19 +158,19 @@ public class Activity01 extends Activity {
 				
 				
 				if(TextUtils.isEmpty(edittext.getText().toString())==true) {
-					textview.setText("ÇëÊäÈëÕıÈ·µÄ½ğ¶î");
+					textview.setText("è¯·è¾“å…¥ä¸€ä¸ªæ•°å€¼");
 				}
 				else {
 					if(ExchangeManager.isNum(edittext.getText().toString())==true) {
 						d = Double.parseDouble(edittext.getText().toString());
 						
 						
-						pDlg = ProgressDialog.show(Activity01.this, "ÇëµÈ´ı", "ÕıÔÚÎªÄú×ª»»ÖĞ",true);
+						pDlg = ProgressDialog.show(Activity01.this, "MoneyDroid", "è¯·ç¨åï¼Œç­‰å¾…è½¬æ¢ä¸­...",true);
 						Thread td = new Thread(new loop());
 						td.start();
 					}
 					else {
-						textview.setText("ÇëÊäÈëÕıÈ·µÄ½ğ¶î");
+						textview.setText("å‡ºç°é”™è¯¯ï¼Œè¯·ç¡®ä¿æ‚¨è¿å…¥äº†äº’è”ç½‘ã€‚");
 					}
 				}
 				
